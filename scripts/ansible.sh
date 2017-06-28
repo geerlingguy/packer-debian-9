@@ -1,11 +1,8 @@
 #!/bin/bash -eux
 
-# Install Ansible repository.
+# Install Ansible dependencies.
 apt -y update && apt-get -y upgrade
-apt -y install software-properties-common
-echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main" | tee -a /etc/apt/sources.list
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+apt -y install python-pip python-dev
 
 # Install Ansible.
-apt -y update
-apt -y install ansible
+pip install ansible
