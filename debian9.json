@@ -98,7 +98,7 @@
       ],
       "boot_wait": "5s",
       "disk_size": 81920,
-      "guest_os_type": "debian9-64",
+      "guest_os_type": "debian8-64",
       "headless": true,
       "http_directory": "http",
       "iso_urls": [
