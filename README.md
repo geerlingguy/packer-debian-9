@@ -1,6 +1,6 @@
 # Packer Example - Debian 8 minimal Vagrant Box
 
-**Current Debian Version Used**: 9.3.0
+**Current Debian Version Used**: 9.4.0
 
 **Pre-built Vagrant Box**:
 

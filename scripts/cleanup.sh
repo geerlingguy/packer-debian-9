@@ -1,8 +1,8 @@
 #!/bin/bash -eux
 
-# Uninstall Ansible and remove PPA.
-apt -y remove --purge ansible
-sed '/ansible/{s/^/#/}' sources.list
+# Uninstall Ansible and dependencies.
+pip uninstall ansible
+apt-get remove python-pip python-dev
 
 # Apt cleanup.
 apt autoremove
