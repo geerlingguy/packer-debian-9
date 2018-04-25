@@ -1,4 +1,4 @@
-# Packer Example - Debian 8 minimal Vagrant Box
+# Packer Example - Debian 9 minimal Vagrant Box
 
 **Current Debian Version Used**: 9.4.0
 
